@@ -10,5 +10,6 @@ phases:
     - echo "Deployed to s3"
 
 artifacts:
+  base-directory: outputDirectory
   files:
     - '**/*'
